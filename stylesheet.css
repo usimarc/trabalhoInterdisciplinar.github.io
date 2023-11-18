@@ -1,0 +1,155 @@
+html{
+    height: 100%;
+}
+
+    body{
+        margin: 0px ;
+        max-width:1366px;
+    }
+
+   
+.carrinho {
+    width: 30%;
+}
+
+#imagemcarrinho {margin-left:30%;}
+
+.carrinho img {margin-left:2%;
+    height: 25px;
+}
+
+
+.btn-outline-success {
+    color:black;
+    border-color:grey;
+}
+
+.btn-outline-success:hover {
+    background-color:#f79a8962;
+    color:black;
+    border-color:grey;
+}
+
+.divFormCaroulsel{
+    display: flex;
+    margin-top: 30px;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #f79a8962;
+}
+
+.btn-outline-success:hover{
+    background-color: #f79a8962;
+    color:black
+}
+
+.tamanhoForm{
+    width: 20%;
+    border: 1px solid palevioletred;
+    margin: 1px 20px 1px 3px;
+    padding: 20px;
+    text-align: left;
+}
+
+.tamanhoCarousel{
+    width: 76%;
+    border: 1px solid palevioletred;
+}
+
+.DivMeio{
+display: flex;
+width: 100%;
+margin-top: 30px;
+}
+
+
+.Cardprodutos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:25px;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+.MaisVendidos{
+    padding: 10px;
+}
+
+.MaisVendidos img{
+    height: 150px;
+    object-fit: contain;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.Newsletter {
+    border: 1px solid rgb(250, 188, 207);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.rodape{
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 900px) {
+    
+    .divFormCaroulsel {
+    display: block;
+    width: 100%;
+    
+}
+
+.blocos {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.tamanho {
+    width: 100%;  
+}
+
+    .colocontainer-fluid{
+    display: flexbox;
+}
+
+    .tamanhoForm {
+        width: 100%;
+    }
+
+    .DivMeio {
+        display: inline;
+    }
+
+    .tamanhoCarousel{
+        margin: 5px auto;
+    }
+    
+    .Cardprodutos{
+        display: inline;
+        text-align: center;
+    }
+    
+    .MaisVendidos{
+        text-align: center;
+    }
+
+    .rodape{
+        display: inline;
+        text-align: center;
+        margin:15px;
+        border: 0px;
+    }
+
+}
+
+
